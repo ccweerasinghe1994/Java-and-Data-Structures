@@ -121,10 +121,88 @@ error?
 
 ___
 ___
-2.  ******
-3.  ******
-4.  ******
-5.  ******
-6.  ******
-7.  ******
-8.  ******
+# **Programming Errors**
+***Programming errors can be categorized into three types: syntax errors, runtime
+errors, and logic errors.***
+  1. **Syntax Errors**
+     1.   ***Errors that are detected by the compiler are called syntax errors or compile errors. Syntax
+    errors result from errors in code construction, such as mistyping a keyword, omitting some
+    necessary punctuation, or using an opening brace without a corresponding closing brace.
+    These errors are usually easy to detect because the compiler tells you where they are and
+    what caused them.***
+
+## **ShowSyntaxErrors.java**
+```java
+public class ShowSyntaxErrors {
+
+    public static  main(String[] args) {
+        System.out.println("Welcome to Java);
+    }
+}
+```
+```java
+
+Return type for the method is missing
+String literal is not properly closed by a double-quote
+
+```
+
+***Since a single error will often display many lines of compile errors, it is a good practice to
+fix errors from the top line and work downward. Fixing errors that occur earlier in the program
+may also fix additional errors that occur later***
+
+  2. Programming Errors
+  3. Syntax Errors
+  4. Syntax Errors
+  5. Syntax Errors
+
+## **Runtime Errors**   
+ ***Programming errors can be categorized into three types: syntax errors, runtime
+errors, and logic errors.***
+***Runtime errors are errors that cause a program to terminate abnormally. They occur while a
+program is running if the environment detects an operation that is impossible to carry out. Input
+mistakes typically cause runtime errors. An input error occurs when the program is waiting
+for the user to enter a value, but the user enters a value that the program cannot handle. For
+instance, if the program expects to read in a number, but instead the user enters a string, this
+causes data-type errors to occur in the program.
+Another example of runtime errors is division by zero. This happens when the divisor is
+zero for integer divisions.***
+## **ShowRuntimeErrors.java**
+```java
+public class ShowRuntimeErrors {
+
+    public static void main(String[] args) {
+        System.out.println(1 / 0);
+    }
+}
+```
+![](../img/12.png)
+## **Logic Errors**
+***Logic errors occur when a program does not perform the way it was intended to. Errors of this
+kind occur for many different reasons. For example, suppose you wrote the program in
+Listing 1.6 to convert Celsius 35 degrees to a Fahrenheit degree:***
+
+```java
+public class ShowLogicErrors {
+
+    public static void main(String[] args) {
+        System.out.println("Celsius 35 is Fahrenheit degree");
+        System.out.println((9 / 5) * 35 + 32);
+
+    }
+}
+```
+```java
+Celsius 35 is Fahrenheit degree
+67
+```
+
+![](./../img/13.png)
+![](./../img/14.png)
+![](./../img/15.png)
+![](./../img/16.png)
+![](./../img/17.png)
+![](./../img/18.png)
+******
+******
+******
