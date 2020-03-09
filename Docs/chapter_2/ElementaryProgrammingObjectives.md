@@ -212,3 +212,185 @@ variables in a program.***
 ![](img/6.png)
 ![](img/7.png)
 ![](img/8.png)
+
+
+## **Variables**
+
+***Variables are used to represent values that may be changed in the program***
+
+***As you see from the programs in the preceding sections, variables are used to store values
+to be used later in a program. They are called variables because their values can be changed.***
+
+![](img/9.png)
+
+## **Assignment Statements and Assignment Expressions** 
+***An assignment statement designates a value for a variable. An assignment statement
+can be used as an expression in Java.***
+
+***After a variable is declared, you can assign a value to it by using an assignment statement. In
+Java, the equal sign (=) is used as the assignment operator. The syntax for assignment statements
+is as follows:***
+
+$$variable = expression;$$
+
+***An expression represents a computation involving values, variables, and operators that,
+taking them together, evaluates to a value. For example, consider the following code:***
+```java
+int y = 1; // Assign 1 to variable y
+double radius = 1.0; // Assign 1.0 to variable radius
+int x = 5 * (3 / 2); // Assign the value of the expression to x
+x = y + 1; // Assign the addition of y and 1 to x
+double area = radius * radius * 3.14159; // Compute area
+
+```
+
+***You can use a variable in an expression. A variable can also be used in both sides of the =
+operator. For example,***
+```java
+x = x + 1;
+
+```
+
+***In this assignment statement, the result of x + 1 is assigned to x. If x is 1 before the
+statement is executed, then it becomes 2 after the statement is executed.
+To assign a value to a variable, you must place the variable name to the left of the assignment
+operator. Thus, the following statement is wrong:***
+```java
+1 = x; // Wrong***
+```
+![](img/10.png)
+***In Java, an assignment statement is essentially an expression that evaluates to the value to
+be assigned to the variable on the left side of the assignment operator. For this reason, an
+assignment statement is also known as an assignment expression. For example, the following
+statement is correct:***
+```java
+System.out.println(x = 1);
+
+
+```
+***which is equivalent to***
+
+```java
+x = 1;
+System.out.println(x);
+```
+
+
+***If a value is assigned to multiple variables, you can use the following syntax:***
+```java
+i = j = k = 1;
+```
+***which is equivalent to***
+
+```java
+k = 1;
+j = k;
+i = j;
+```
+![](img/11.png)
+![](img/12.png)
+
+
+# **Named Constants**
+***A named constant is an identifier that represents a permanent value.***
+
+***The value of a variable may change during the execution of a program, but a named constant,
+or simply constant, represents permanent data that never changes. A constant is also known as
+a final variable in Java.***
+```java
+```
+# **ComputeAreaWithConstant.java**
+
+```java
+public class ComputeAreaWithConstant {
+
+    public static void main(String[] args) {
+        final double PI = 3.14159;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please enter a radius");
+        double radius = input.nextDouble();
+
+        double area = radius * radius * PI;
+        System.out.println("The Area of the circle with a " + radius + " of " + area);
+    }
+}
+```
+```java
+
+Please enter a radius
+12
+The Area of the circle with a 12.0 of 452.38896
+
+```
+***There are three benefits of using constants: (1) you don’t have to repeatedly type the same
+value if it is used multiple times; (2) if you have to change the constant value (e.g., from 3.14
+to 3.14159 for PI), you need to change it only in a single location in the source code; and (3)
+a descriptive name for a constant makes the program easy to read.***
+
+
+# **Naming Conventions**
+***Sticking with the Java naming conventions makes your programs easy to read and avoids errors.***
+
+![](img/13.png)
+
+# **Numeric Data Types and Operations**
+**Java has six numeric types for integers and floating-point numbers with operators*** ` +,
+-, *, /, and %.* `
+
+# **Numeric Types**
+![](img/14.png)
+![](img/15.png)
+
+
+# **Reading Numbers from the Keyboard**
+
+![](img/16.png)
+
+# **Numeric Operators**
+![](img/17.png)
+![](img/18.png)
+
+# **DisplayTime.java**
+******
+******
+```java
+public class ComputeAreaWithConstant {
+
+    public static void main(String[] args) {
+        final double PI = 3.14159;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please enter a radius");
+        double radius = input.nextDouble();
+
+        double area = radius * radius * PI;
+        System.out.println("The Area of the circle with a " + radius + " of " + area);
+    }
+}
+```
+```java
+Enter a inteher for Seconds
+67
+67 seconds 1 minutes and 7 seconds
+
+```
+# ****
+******
+******
+```java
+
+```
+```java
+
+```
+
+******
+```java
+```
+```java
+```
+```java
+```
