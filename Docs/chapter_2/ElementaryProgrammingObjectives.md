@@ -42,10 +42,10 @@ public class ComputeArea {
 ```
 
 ***The program needs to read the radius entered by the user from the keyboard. This raises
-two important issues:
-1.  Reading the radius
-1.  Storing the radius in the program
-Let’s address the second issue first. In order to store the radius, the program needs to declare
+two important issues:***
+1.  **Reading the radius**
+1.  **Storing the radius in the program**
+***Let’s address the second issue first. In order to store the radius, the program needs to declare
 a symbol called a variable. A variable represents a value stored in the computer’s memory.
 Rather than using x and y as variable names, choose descriptive names: in this case, radius
 for radius and area for area. To let the compiler know what radius and area are, specify
