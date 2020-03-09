@@ -21,5 +21,13 @@
    8. [Scheduling Operations](Docs/chapter_1/programming_lanuages.md)
    9. [Java, the World Wide Web, and Beyond](Docs/chapter_1/programming_lanuages.md)
    10. [The Java Language Specification, API, JDK,JRE, and IDE](Docs/chapter_1/programming_lanuages.md)
+8.  [Simple Java Program](Docs/chapter_1/simpleJava.md)  
+    1.  [Simple Java Program](Docs/chapter_1/simpleJava.md)  
+    2.  [WelcomeWithThreeMessages.java](Docs/chapter_1/simpleJava.md)  
+    3.  [ComputeExpression.java](Docs/chapter_1/simpleJava.md)  
+    4.  [Check Point](Docs/chapter_1/simpleJava.md)  
+    5.  [Creating, Compiling, and Executing a Java Program](Docs/chapter_1/simpleJava.md)  
+    6.  [check Point](Docs/chapter_1/simpleJava.md)  
+    7.  [](Docs/chapter_1/simpleJava.md)  
    
 
