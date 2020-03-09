@@ -291,7 +291,7 @@ i = j;
 ![](img/12.png)
 
 
-# **Named Constants**
+## **Named Constants**
 ***A named constant is an identifier that represents a permanent value.***
 
 ***The value of a variable may change during the execution of a program, but a named constant,
@@ -299,7 +299,7 @@ or simply constant, represents permanent data that never changes. A constant is 
 a final variable in Java.***
 ```java
 ```
-# **ComputeAreaWithConstant.java**
+## **ComputeAreaWithConstant.java**
 
 ```java
 public class ComputeAreaWithConstant {
@@ -330,29 +330,29 @@ to 3.14159 for PI), you need to change it only in a single location in the sourc
 a descriptive name for a constant makes the program easy to read.***
 
 
-# **Naming Conventions**
+## **Naming Conventions**
 ***Sticking with the Java naming conventions makes your programs easy to read and avoids errors.***
 
 ![](img/13.png)
 
-# **Numeric Data Types and Operations**
+## **Numeric Data Types and Operations**
 **Java has six numeric types for integers and floating-point numbers with operators*** ` +,
 -, *, /, and %.* `
 
-# **Numeric Types**
+## **Numeric Types**
 ![](img/14.png)
 ![](img/15.png)
 
 
-# **Reading Numbers from the Keyboard**
+## **Reading Numbers from the Keyboard**
 
 ![](img/16.png)
 
-# **Numeric Operators**
+## **Numeric Operators**
 ![](img/17.png)
 ![](img/18.png)
 
-# **DisplayTime.java**
+## **DisplayTime.java**
 ******
 ******
 ```java
@@ -377,19 +377,129 @@ Enter a inteher for Seconds
 67 seconds 1 minutes and 7 seconds
 
 ```
-# ****
-******
-******
-```java
-
-```
-```java
-
-```
-
+## **Exponent Operations**
+***The Math.pow(a, b) method can be used to compute ab. The pow method is defined in the
+Math class in the Java API. You invoke the method using the syntax Math.pow(a, b) (e.g.,
+Math.pow(2, 3)), which returns the result of ab (23). Here, a and b are parameters for the
+pow method and the numbers 2 and 3 are actual values used to invoke the method. For
+example,***
 ******
 ```java
+System.out.println(Math.pow(2, 3)); // Displays 8.0
+System.out.println(Math.pow(4, 0.5)); // Displays 2.0
+System.out.println(Math.pow(2.5, 2)); // Displays 6.25
+System.out.println(Math.pow(2.5, –2)); // Displays 0.16
 ```
+![](img/19.png)
+
+## **Numeric Literals**
+***A literal is a constant value that appears directly in a program.
+For example,***
+***For example, 34 and 0.305 are literals in the following statements:
+***
+```java
+int numberOfYears = 34;
+double weight = 0.305;
+```
+
+
+
+## **Integer Literals**
+***An integer literal can be assigned to an integer variable as long as it can fit into the variable. A
+compile error will occur if the literal is too large for the variable to hold. The statement byte
+b = 128, for example, will cause a compile error, because 128 cannot be stored in a variable
+of the byte type. (Note the range for a byte value is from –128 to 127.)
+An integer literal is assumed to be of the int type, whose value is between
+-231 (-2147483648) and 231 -1 (2147483647). To denote an integer literal of the long type,
+append the letter L or l to it. For example, to write integer 2147483648 in a Java program,
+you have to write it as 2147483648L or 2147483648l, because 2147483648 exceeds the
+range for the int value. L is preferred because l (lowercase L) can easily be confused with 1
+(the digit one).***
+
+![](/Docs/chapter_2/img/20.png)
+
+## **Floating-Point Literals**
+![](/Docs/chapter_2/img/21.png)
+## **Scientific Notation**
+![](/Docs/chapter_2/img/24.png)
+![](/Docs/chapter_2/img/23.png)
+******
+```java
+```
+```java
+```
+
+
+
+## **Evaluating Expressions and Operator Precedence**
+
+***Java expressions are evaluated in the same way as arithmetic expressions.***
+
+![](/Docs/chapter_2/img/25.png)
+![](/Docs/chapter_2/img/26.png)
+```java
+```
+```java
+```
+
+
+
+
+## **FahrenheitToCelsius.java**
+
+```java
+public class FahrenheitToCelsius {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a degree in Faranhieght");
+        double Faranhite = input.nextDouble();
+        double celciues = (5.0 / 9) * Faranhite;
+        System.out.println("Faranhite " + Faranhite + " in celciues " + celciues);
+    }
+}
+```
+```java
+Enter a degree in Faranhieght
+45
+Faranhite 45.0 in celciues 25.0
+```
+
+
+
+## ****
+![](/Docs/chapter_2/img/21.png)
+******
+```java
+```
+```java
+```
+
+
+
+
+## ****
+![](/Docs/chapter_2/img/21.png)
+******
+```java
+```
+```java
+```
+
+
+
+## ****
+![](/Docs/chapter_2/img/21.png)
+******
+```java
+```
+```java
+```
+
+
+## ****
+![](/Docs/chapter_2/img/21.png)
+******
 ```java
 ```
 ```java
