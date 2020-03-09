@@ -177,7 +177,3 @@ can run on desktop.
 servlets, JavaServer Pages (JSP), and JavaServer Faces (JSF).
 1. Java Micro Edition (Java ME) to develop applications for mobile devices, such as
 cell phones.
-## ****
-******
-## ****
-******
