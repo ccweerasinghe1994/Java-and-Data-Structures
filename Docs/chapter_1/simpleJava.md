@@ -196,13 +196,13 @@ public class ShowLogicErrors {
 Celsius 35 is Fahrenheit degree
 67
 ```
+## **Summery**
+![](./../img/19.png)
+![](./../img/20.png)
+![](./../img/21.png)
 
-![](./../img/13.png)
-![](./../img/14.png)
+# **Programming ExerCises**
 ![](./../img/15.png)
 ![](./../img/16.png)
 ![](./../img/17.png)
 ![](./../img/18.png)
-******
-******
-******
