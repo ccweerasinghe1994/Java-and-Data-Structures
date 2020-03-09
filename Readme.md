@@ -38,3 +38,7 @@
       23. [Programming ExerCises](Docs/chapter_1/simpleJava.md)  
    
 
+# **CHAPTER TWO**
+## ***Elementary Programming***
+
+   1.[Introduction](./Docs/chapter_2/ElementaryProgrammingObjectives.md)
