@@ -65,23 +65,23 @@ power travel along the bus from one part of the computer to another. In personal
 
  1. ## **Memory**
    
-   ***A computer’s memory consists of an ordered sequence of bytes for storing programs as well
-    as data with which the program is working. You can think of memory as the computer’s work
-    area for executing a program. A program and its data must be moved into the computer’s
-    memory before they can be executed by the CPU.
-    Every byte in the memory has a unique address, as shown in Figure 1.2. The address is used
-    to locate the byte for storing and retrieving the data. Since the bytes in the memory can be
-    accessed in any order, the memory is also referred to as random-access memory (RAM).***
+    ***A computer’s memory consists of an ordered sequence of bytes for storing programs as well
+        as data with which the program is working. You can think of memory as the computer’s work
+        area for executing a program. A program and its data must be moved into the computer’s
+        memory before they can be executed by the CPU.
+        Every byte in the memory has a unique address, as shown in Figure 1.2. The address is used
+        to locate the byte for storing and retrieving the data. Since the bytes in the memory can be
+        accessed in any order, the memory is also referred to as random-access memory (RAM).***
 
 ![](./../img/2.png)
 
-***Today’s personal computers usually have at least 4 GB of RAM, but they more commonly
-    have 6 to 8 GB installed. Generally speaking, the more RAM a computer has, the faster it can
-    operate, but there are limits to this simple rule of thumb.
-    A memory byte is never empty, but its initial content may be meaningless to your program.
-    The current content of a memory byte is lost whenever new information is placed in it.
-    Like the CPU, memory is built on silicon semiconductor chips that have millions of transistors embedded on their surface. Compared to CPU chips, memory chips are less complicated,
-    slower, and less expensive***
+        ***Today’s personal computers usually have at least 4 GB of     RAM,    but they more commonly
+            have 6 to 8 GB installed. Generally speaking, the more RAM a computer has, the faster it can
+            operate, but there are limits to this simple rule of thumb.
+            A memory byte is never empty, but its initial content may be meaningless to your program.
+            The current content of a memory byte is lost whenever new information is placed in it.
+            Like the CPU, memory is built on silicon semiconductor chips that have millions of transistors embedded on their surface. Compared to CPU chips, memory chips are less complicated,
+            slower, and less expensive***
 
 4. ## **Storage Devices**
     1. ***A computer’s memory (RAM) is a volatile form of data storage: Any information that has been saved in memory is lost when the system’s power is turned off. Programs and data are permanently stored on storage devices and are moved, when the computer actu ally uses them, to memory, which operates at much faster speeds than permanent storage devices can.***
