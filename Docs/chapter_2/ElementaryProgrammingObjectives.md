@@ -202,3 +202,13 @@ Enter Three numbers
 average: 12.0
 ```
 ![](img/4.png)
+
+![](img/5.png)
+
+## **Identifiers**
+***Identifiers are the names that identify the elements such as classes, methods, and
+variables in a program.***
+
+![](img/6.png)
+![](img/7.png)
+![](img/8.png)
