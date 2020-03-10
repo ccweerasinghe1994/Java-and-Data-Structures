@@ -467,8 +467,46 @@ Faranhite 45.0 in celciues 25.0
 
 
 
-## ****
-![](/Docs/chapter_2/img/21.png)
+## **TRY IT YOUR SELF**
+![](/Docs/chapter_2/img/27.png)
+
+
+
+## **Case Study: Displaying the Current Time**
+![](/Docs/chapter_2/img/28.png)
+******
+```java
+public class ShowCurrentTime {
+
+    public static void main(String[] args) {
+        // Obtain the total milliseconds since midnight, Jan 1, 1970
+        long totalMilieSeconds = System.currentTimeMillis();
+        // Obtain the total seconds since midnight, Jan 1, 1970
+        long totalSeconds = totalMilieSeconds / 1000;
+        // Compute the current second in the minute in the hour
+        long currentSeconds = totalSeconds % 60;
+
+        // Obtain the total minutes
+        long totalMinutes = totalSeconds / 60;
+        // Compute the current minute in the hour
+        long currentMinutes = totalMinutes % 60;
+        // Obtain the total hours
+        long totalHours = totalMinutes / 60;
+        // Compute the current hour
+        long currentHour = totalHours % 24;
+        // Display results
+        System.out.println("Current time is " + currentHour + ":" + currentMinutes + ":" + currentSeconds + " GMT");
+    }
+}
+```
+```java
+Current time is 12:49:24 GMT
+```
+
+
+
+## **Augmented Assignment Operators**
+![](/Docs/chapter_2/img/29.png)
 ******
 ```java
 ```
@@ -476,31 +514,48 @@ Faranhite 45.0 in celciues 25.0
 ```
 
 
+## **Increment and Decrement Operators**
+
+***The increment operator (+ +) and decrement operator (- -) are for incrementing and
+decrementing a variable by 1.***
+![](/Docs/chapter_2/img/30.png)
+![](/Docs/chapter_2/img/31.png)
 
 
-## ****
-![](/Docs/chapter_2/img/21.png)
+## **Numeric Type Conversions**
+
+***Floating-point numbers can be converted into integers using explicit casting***
+
+![](/Docs/chapter_2/img/32.png)
+
+## **SalesTax.java**
+![](/Docs/chapter_2/img/.png)
+
+```java
+ import java.util.Scanner;
+
+ public class SalesTax {
+ public static void main(String[] args) {
+ Scanner input = new Scanner(System.in);
+
+ System.out.print("Enter purchase amount: ");
+ double purchaseAmount = input.nextDouble();
+
+ double tax = purchaseAmount * 0.06;
+ System.out.println("Sales tax is $" + (int)(tax * 100) / 100.0);
+    }
+ }
+```
+```java
+Enter purchase amount: 197.55
+Sales tax is $11.85
+```
+
+## **Software Development Process**
+
+***The software development life cycle is a multistage process that includes requirements
+specification, analysis, design, implementation, testing, deployment, and maintenance.***
 ******
-```java
-```
-```java
-```
-
-
-
-## ****
-![](/Docs/chapter_2/img/21.png)
-******
-```java
-```
-```java
-```
-
-
-## ****
-![](/Docs/chapter_2/img/21.png)
-******
-```java
-```
-```java
-```
+![](/Docs/chapter_2/img/33.png)
+![](/Docs/chapter_2/img/34.png)
+![](/Docs/chapter_2/img/35.png)
