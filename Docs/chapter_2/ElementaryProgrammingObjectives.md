@@ -559,3 +559,139 @@ specification, analysis, design, implementation, testing, deployment, and mainte
 ![](/Docs/chapter_2/img/33.png)
 ![](/Docs/chapter_2/img/34.png)
 ![](/Docs/chapter_2/img/35.png)
+
+## **ComputeLoan.java**
+```java
+public class ComputeLoan {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("please Enter a anual intrest rate");
+        double anualIntrestRate = input.nextDouble();
+
+        double monthlyIntrasrtRate = anualIntrestRate / 1200;
+
+        System.out.println("Enter number of years as Integer");
+        int numberofYears = input.nextInt();
+        System.out.println("please enter a loan amount");
+        double loanAmount = input.nextDouble();
+
+        double monthlyPayment = loanAmount * monthlyIntrasrtRate
+                / (1 - 1 / Math.pow(1 + monthlyIntrasrtRate, numberofYears * 12));
+        double totalPayment = monthlyPayment * numberofYears * 12;
+
+        System.out.println("The monthly payment is $" + (int) (monthlyPayment * 100) / 100.0);
+        System.out.println("The total payment is $" + (int) (totalPayment * 100) / 100.0);
+        System.out.println();
+    }
+}
+
+```
+```java
+
+please Enter a anual intrest rate
+12
+Enter number of years as Integer
+5
+please enter a loan amount
+500000
+The monthly payment is $11122.22
+The total payment is $667333.43
+```
+
+![](./img/36.png)
+![](./img/37.png)
+
+# **Case Study: Counting Monetary Units**
+
+***This section presents a program that breaks a large amount of money into smaller
+units.***
+
+![](img/38.png)
+
+```java
+import java.util.Scanner;
+
+3public class ComputeChange {
+4public static void main(String[] args) {
+// Create a Scanner
+6Scanner input = new Scanner(System.in);
+
+// Receive the amount
+System.out.print(
+ "Enter an amount in double, for example 11.56: ");
+ double amount = input.nextDouble();
+
+ int remainingAmount = (int)(amount * 100);
+
+ // Find the number of one dollars
+ int numberOfOneDollars = remainingAmount / 100;
+ remainingAmount = remainingAmount % 100;
+
+ // Find the number of quarters in the remaining amount
+ int numberOfQuarters = remainingAmount / 25;
+ remainingAmount = remainingAmount % 25;
+
+ // Find the number of dimes in the remaining amount
+ int numberOfDimes = remainingAmount / 10;
+ remainingAmount = remainingAmount % 10;
+
+ // Find the number of nickels in the remaining amount
+ int numberOfNickels = remainingAmount / 5;
+ remainingAmount = remainingAmount % 5;
+
+ // Find the number of pennies in the remaining amount
+ int numberOfPennies = remainingAmount;
+
+ // Display results
+ System.out.println("Your amount " + amount + " consists of");
+ System.out.println(" " + numberOfOneDollars + " dollars");
+ System.out.println(" " + numberOfQuarters + " quarters ");
+ System.out.println(" " + numberOfDimes + " dimes");
+ System.out.println(" " + numberOfNickels + " nickels");
+ System.out.println(" " + numberOfPennies + " pennies");
+ }
+ }
+ ```
+ ```java
+ Enter an amount in double, for example, 11.56: 11.56
+Your amount 11.56 consists of
+ dollars
+ quarters
+dimes
+ nickels
+ pennies
+```
+
+# **Common Errors and Pitfalls**
+***Common elementary programming errors often involve undeclared variables, uninitialized
+variables, integer overflow, unintended integer division, and round-off errors.***  
+
+![](img/39.png)
+![](img/40.png)
+![](img/41.png)
+![](img/42.png)
+![](img/43.png)
+![](img/44.png)
+![](img/45.png)
+![](img/46.png)
+
+## **Chapter Summery**
+![](img/47.png)
+![](img/48.png)
+![](img/49.png)
+
+## **EX**
+![](img/50.png)
+![](img/51.png)
+![](img/52.png)
+![](img/53.png)
+![](img/54.png)
+![](img/55.png)
+![](img/56.png)
+![](img/57.png)
+![](img/58.png)
+![](img/59.png)
+![](img/60.png)
+![](img/61.png)
